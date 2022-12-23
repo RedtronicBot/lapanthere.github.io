@@ -7,6 +7,36 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.titre1
+{
+    width:634px;
+    margin:auto;
+    color:gray;
+    font-size: 22px;
+}
+
+.titre2
+{
+    width:476px;
+    margin:auto;
+    color:gray;
+    font-size: 22px;
+}
+
+.citation
+{
+    width:567px;
+    margin:auto;
+    color:#575757;
+    font-size: 20px; 
+    font-style: italic;   
+}
+
+.auteur_citation
+{
+    color:gray;
+    font-size: 20px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -651,7 +681,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: black!important;
+    color: black;
 }
 
 .container {
@@ -822,7 +852,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {

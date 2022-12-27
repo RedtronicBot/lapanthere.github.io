@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.row_partenaire
+{
+    display: flex;
+    justify-content: center;
+}
 .titre1
 {
     width:634px;

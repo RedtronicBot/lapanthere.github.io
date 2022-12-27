@@ -23,6 +23,15 @@ body {
     font-size: 22px;
 }
 
+.footer_liste
+{
+    list-style: none;
+    padding:0;
+}
+.footer_liste_element
+{
+    font-size: 16px;
+}
 .citation
 {
     width:567px;

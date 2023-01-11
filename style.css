@@ -7,6 +7,21 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.formulaire_contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact_form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 .row_partenaire
 {
     display: flex;

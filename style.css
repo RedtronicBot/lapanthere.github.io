@@ -7,65 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.formulaire_contact
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.contact_form
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.row_partenaire
-{
-    display: flex;
-    justify-content: center;
-}
-.titre1
-{
-    width:634px;
-    margin:auto;
-    color:#575757;
-    font-size: 22px;
-}
-
-.titre2
-{
-    width:476px;
-    margin:auto;
-    color:#575757;
-    font-size: 22px;
-}
-
-.footer_liste
-{
-    list-style: none;
-    padding:0;
-}
-.footer_liste_element
-{
-    font-size: 16px;
-}
-.citation
-{
-    width:567px;
-    margin:auto;
-    color:#575757;
-    font-size: 20px; 
-    font-style: italic;   
-}
-
-.auteur_citation
-{
-    color:#6D6B6A;
-    font-size: 20px;
-}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -150,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -710,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: black;
+    color: #575757!important;
 }
 
 .container {
@@ -736,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -826,24 +767,19 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #4A4B4D;
+    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #AC5300;
+    background-color: #F3976C;
 }
 
 .tc-white {
     color: #F3976C!important;
 }
 
-.tc-black
-{
-    color:black;
-}
-
 .btn-atomic-tangerine {
-    background: #AC5300;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
@@ -874,19 +810,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.webp");
+    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.webp");
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
